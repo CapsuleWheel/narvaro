@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>närvaro</title>
+</head>
+<body>
+<div class="back">Назад</div>
+<div class="wrapper">
+    <header>
+        <div class="logo"><p><a class="logo" href="home.html">närvaro</a></p></div>
+        <div class="menu">
+            <div class="catalog"><p><a href="catalog-chairs.html">каталог</a></p></div>
+            <div class="contacts"><p><a href="contacts-msk.html">контакты</a></p></div>
+            <div class="about_us"><p><a href="about_us.html">о нас</a></p></div>
+        </div>
+        <div class="number">+7 (999) 000 00 00</div>
+    </header>
+    <div class="container">
+        <h2 class="home">Контакты</h2>
+        <div class="btn">
+            <div class="btn-msk"><p class="msk"><a class="a-msk" href="contacts-msk.html"><span class="btn-1">Москва</span></a></p></div>
+            <div class="btn-spb"><p class="spb"><a class="a-spb" href="contacts-spb.html"><span class="btn-1">Санкт-Петербург</span></a></p></div>
+        </div>
+        <div class="bgmap"><div id="map" class="map"></div></div>
+        <div class="container-1">
+            <div class="addresses">
+                <h2 class="adr">Адреса</h2>
+                <div class="addres">
+                    <p>
+                        125252, Россия, Московская обл., Москва<br/>
+                        Ходынский бульвар 4<br/>
+                        ТРЦ «Авиапарк»<br/>
+                        <span>Тел</span>.: +7 (999) 000 00-00<br/>
+                        <span>Часы работы</span>: 08:00-23:00<br/>
+                    </p>
+                </div>
+                <div class="addres-1">
+                    <p>
+                        196105, Россия, Санкт-Петербург<br/>
+                        пр. Космонавтов, 14<br/>
+                        ТРК «Питер Радуга»<br/>
+                        <span>Тел</span>.: +7 (999) 000 00-00<br/>
+                        <span>Часы работы</span>: 08:00-23:00<br/>
+                    </p>
+                </div>
+            </div>
+            <div class="feedback-form">
+                <h2 class="adr">Мы на связи</h2>
+                <div class="adr-1"><p>Оставьте свой вопрос, и мы свяжемся с вами</p></div>
+                <form action="#" method="post">
+                    <div class="container-2">
+                        <div class="user-data">
+                            <input class="username" type="text" name="username" value="" placeholder="Ваше имя">
+                            <input class="usermail" type="text" name="usermail" value="" placeholder="Ваш e-mail">
+                            <input class="number" type="tel" name="number" value="" placeholder="Номер телефона">
+                        </div>
+                        <div class="question">
+                            <textarea name="question" placeholder="Опишите ваш вопрос"></textarea>
+                        </div>
+                    </div>
+                    <div class="adr-2"><p>Нажимая кнопку “Отправить”, вы соглашаетесь на обработку персональных данных в соответствии с Политикой конфиденциальности</p></div>
+                    <input type="submit" name="submit" value="Отправить">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
+        type="text/javascript">
+</script>
+<script src="js/script-2.js"></script>
+</body>
+</html>
